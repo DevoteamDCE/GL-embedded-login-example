@@ -23,9 +23,9 @@
     <meta name="salesforce-logout-handler" content="onLogout">
     <meta name="salesforce-mask-redirects" content="<?php echo getenv('SALESFORCE_MASK_REDIRECTS');?>">
     <meta name="salesforce-cache-max-age" content="10">
-	<meta name="salesforce-expid" content="<?php echo getenv('SALESFORCE_EXPID');?>">
+	  <meta name="salesforce-expid" content="<?php echo getenv('SALESFORCE_EXPID');?>">
 	  
-	<link  href="https://<?php echo getenv('SALESFORCE_COMMUNITY_URL');?>/servlet/servlet.loginwidgetcontroller?type=css" rel="stylesheet" type="text/css" />
+	  <link  href="https://<?php echo getenv('SALESFORCE_COMMUNITY_URL');?>/servlet/servlet.loginwidgetcontroller?type=css" rel="stylesheet" type="text/css" />
     <script src="https://<?php echo getenv('SALESFORCE_COMMUNITY_URL');?>/servlet/servlet.loginwidgetcontroller?type=javascript_widget<?php echo getenv('SALESFORCE_LOGINWIDGETCONTROLLER_PARAMS');?>" async defer></script>
   </head>
   
