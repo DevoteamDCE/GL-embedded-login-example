@@ -35,7 +35,7 @@
       <div class="masthead-elements-row-1">
         <div class="element-left"></div>
         <div class="element-middle">
-          <img class="logo" src="images/gl/pv-logo.png" alt="PremièreVision">
+          <img class="logo" src="images/gl/pv-logo.jpg" alt="PremièreVision">
           <br>
           <span class="logo-text">Fine Coffee Kits</span>
         </div>
