@@ -37,7 +37,7 @@
         <div class="element-middle">
           <img class="logo" src="images/gl/pv-logo.jpg" alt="PremièreVision">
           <br>
-          <span class="logo-text">Fine Coffee Kits</span>
+          <span class="logo-text">PV Application</span>
         </div>
         <div class="element-right">
         </div>
