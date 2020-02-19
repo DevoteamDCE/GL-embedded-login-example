@@ -7,5 +7,7 @@
 	<meta name="salesforce-allowed-domains" content="<?php echo getenv('SALESFORCE_HEROKUAPP_URL');?>">
 	<script src="https://<?php echo getenv('SALESFORCE_COMMUNITY_URL');?>/servlet/servlet.loginwidgetcontroller?type=javascript_widget" async defer></script>
 </head> 
-<body></body>    
+<body>
+	<h3>PV Marketplace - home page</h3>	
+</body>    
 </html>
