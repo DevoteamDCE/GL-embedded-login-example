@@ -7,7 +7,7 @@
 	<meta name="salesforce-allowed-domains" content="<?php echo getenv('SALESFORCE_HEROKUAPP_URL');?>">
 	<script src="https://<?php echo getenv('SALESFORCE_COMMUNITY_URL');?>/servlet/servlet.loginwidgetcontroller?type=javascript_widget" async defer></script>
 
-    <meta http-equiv="refresh" content="0;url=https://gl-identity-pv-marketplace.herokuapp.com/" />
+    <meta http-equiv="refresh" content="0;url=<?php echo getenv('EMBEDDEDLOGIN_REDIRECT_TO_URL');?>" />
 </head> 
 <body>
 </body>    
