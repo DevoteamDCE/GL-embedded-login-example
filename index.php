@@ -66,6 +66,7 @@
       </ul>
 
     </section>
+    <!--
     <section>
 
       <h1>Complete Brewing Kits</h1>
@@ -94,6 +95,7 @@
       </ul>
 
     </section>
+    -->
     <footer>
 
       <div class="trailer-logo">
