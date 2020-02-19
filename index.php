@@ -135,6 +135,8 @@
 
 	function onLogin(identity) {
 		
+		console.log("### onLogin : access_token = " + SFIDWidget.access_token);
+		
 		var targetDiv = document.querySelector(SFIDWidget.config.target);	
 		
 		var avatar = document.createElement('a'); 
@@ -170,6 +172,7 @@
 		var chemex = document.getElementById("chemex_link");
 		chemex.href = "/datasheets/2014_ChemexBrewGuide.pdf";
 		chemex.innerHTML = 'Datasheet';
+
 
 		
 		var token = document.querySelector(SFIDWidget.openid_response.access_token);	
