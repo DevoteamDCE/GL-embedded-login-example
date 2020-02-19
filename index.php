@@ -168,7 +168,12 @@
 		var chemex = document.getElementById("chemex_link");
 		chemex.href = "/datasheets/2014_ChemexBrewGuide.pdf";
 		chemex.innerHTML = 'Datasheet';
+
 		
+		var token = document.querySelector(SFIDWidget.openid_response.access_token);	
+		var chemex = document.getElementById("chemex_link");
+		chemex.ref = "https://devdce-glevents.cs84.force.com/PVIdentityTest/s/?codeEdition=RNY01&sessionId="+token;
+		chemex.innerHTML = 'Inscription à la campagne PV NY Avril 2020';
 	}
 	
 	
